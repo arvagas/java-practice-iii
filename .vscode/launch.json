@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EmployeesApplication<employees>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "lambda.school.employees.EmployeesApplication",
+      "projectName": "employees",
+      "args": ""
+    }
+  ]
+}
