@@ -9,6 +9,7 @@ public class Employee {
   @GeneratedValue(strategy = GenerationType.AUTO) //tells java that it is a generated value
   private long empid;
 
+  // @Column(nullable = false) //don't neccessarily need unless specified
   private String fname;
   private String lname;
   private double salary;
